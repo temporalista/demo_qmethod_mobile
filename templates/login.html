@@ -1,0 +1,129 @@
+<div
+  id="login"
+  style="
+    background-image: url('circles-light.png');
+    background-repeat: repeat;
+    padding: 5px;
+    height: 90vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 10px;
+  "
+>
+  <h1 style="margin-left: 100px">EQ Mobile Data Collector</h1>
+  <div class="row" style="margin-top: 50px; margin-left: 150px">
+    <div class="col-xs-12">
+      <h4 ng-bind-html="language.loginRememberAutolock"></h4>
+      <p ng-bind-html="language.loginDoScreenCapture"></p>
+
+      <div
+        class="alert alert-danger"
+        role="alert"
+        ng-if="error"
+        ng-bind-html="error"
+      ></div>
+
+      <form
+        role="form"
+        class="form-inline user-code-form"
+        ng-submit="login(usercode)"
+      >
+        <div class="form-group">
+          <label for="usercode" ng-bind-html="language.loginFormHeader"></label>
+          <input
+            autocapitalize="off"
+            type="password"
+            class="form-control"
+            id="usercode"
+            ng-model="usercode"
+            autocomplete="off"
+            style="width: 400px"
+          />
+          <div class="userNameDiv">
+            <label
+              for="username"
+              ng-bind-html="language.loginPartIdText"
+              ng-if="showNameInput"
+            ></label>
+            <input
+              class="form-control"
+              id="username"
+              ng-model="user.PartName"
+              autocomplete="off"
+              ng-if="showNameInput"
+              style="width: 400px"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-default"
+            ng-bind-html="language.btnContinue"
+          ></button>
+        </div>
+      </form>
+      <span
+        id="submitSortsLabel"
+        style="
+          margin-top: 50px;
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 500;
+        "
+        ng-bind-html="language.loginQsortsStored"
+      ></span
+      ><span
+        id="numSavedSorts"
+        style="font-size: 18px; font-weight: 500; margin-left: 15px"
+      ></span>
+      <br />
+      <button
+        id="submitLocalToFirebaseBtn"
+        class="btn btn-default"
+        ng-click="submitLocalToFirebase()"
+        ng-bind-html="language.loginSendQsortsToFirebase"
+        ng-disabled="storedButtonClicked"
+        style="display: inline-block; margin-top: 5px"
+      ></button>
+      <span
+        id="firebaseUploadMessage"
+        style="display: inline-block; margin-top: 8px; margin-left: 10px"
+      ></span>
+      <span
+        id="clearLocalStorageLabel"
+        ng-bind-html="language.loginDeleteLocalQsorts"
+        style="
+          display: block;
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 60px;
+        "
+      ></span>
+      <label
+        for="password"
+        id="passwordLabel"
+        ng-bind-html="language.loginFormHeader"
+        style="margin-top: 10px; display: inline-block"
+      ></label>
+      <input
+        autocapitalize="off"
+        type="password"
+        id="passwordInput"
+        autocomplete="off"
+        style="width: 400px; display: inline-block"
+      />
+      <button
+        class="btn btn-default"
+        id="clearAppMemoryButton"
+        style="
+          margin-left: 30px;
+          margin-top: 0px;
+          background-color: #209cee;
+          color: white;
+        "
+        ng-click="clearLocalstorage()"
+        ng-bind-html="language.loginClearAppMemory"
+      ></button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continuar</item>
+        <item id="btnclose">Cerrar</item>
+        <item id="btnHelp">Ayuda</item>
+        <item id="btnAgreement">ACuerdo</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">Desacuerdo</item>
+        <item id="btnTransfer">Enviar</item>
+        <item id="btnExit">Salir</item>
+        <item id="selectItem">Seleccionar</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Sus datos se perderán</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Regresar</item>
+        <item id="fillInRequiredFields">Por favor complete todos los datos</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Bienvenid@</item>
+        <item id="welcomeText">Este es un demo del Método Q. utilizando como ejemplo el estudio presentado en el artículo " Orellana, D., Hermida C., Hermida, M.A. (2020). ¿Cerca o lejos? Discursos y subjetividad en las relaciones entre el lugar de residencia y la movilidad. Revista EURE (En Prensa)".{br}{br}{b}** Importante **{/b}{br}Para este ejercicio necesitará todo el espeacio posible en la pantalla!{br}{br}De ser necesario, {b}MAXIMICE{/b} la pantalla, {b}{i}refresque{/i}{/b} esta página y haga click en "continuar" para comenzar el experimento.</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Codigo de Acceso</item>
+        <item id="loginText">Por favor ingrese el código del estudio</item>
+        <item id="loginFormHeader">Codigo de Acceso</item>
+        <item id="loginPartIdText">Su nombre o ID</item>
+        <item id="loginNoInput">Ingrese el código de acceso</item>
+        <item id="loginInvalidInput">Código inválido</item>
+        <item id="loginNoConnection">Fallo de conexión :,( Por favor intente otra vez.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introducción</item>
+        <item id="introText">Este es un estudio de ejemplo.</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Paso 1 of 5</item>
+        <item id="step1Text">Organice las tarjetas según su nivel de acuerdo. Puede arrastrarlas con el ratón o utilizar las teclas 1, 2 y 3. Más adelante puede cambiar su decisión si lo desea.</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Paso 2 of 5</item>
+        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.</item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Enviar datos</item>
+        <item id="transferText">Usted ha terminado el experimento, por favor envíe sus datos</item>
+        <item id="transferFailed">El envío a fallado, por favor intente otra vez</item>
+        <item id="transferOk">Gracias por participar! Puede cerrar esta ventana.</item>   
+   </language>

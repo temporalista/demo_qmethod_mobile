@@ -1,0 +1,40 @@
+<div id="submit">
+  <div class="row">
+    <div class="col-xs-12" ng-class="{textright: textAlignRight}">
+      <h1 ng-bind-html="language.transferHead"></h1>
+
+      <p ng-if="firstTry" ng-bind-html="language.transferText"></p>
+      <p ng-if="!firstTry" ng-bind-html="language.transferFailed"></p>
+
+      <div>
+        <p id="offlineSubmitBtn" ng-if="config.submitOfflineBtn">
+          <a
+            href=""
+            ng-click="submitToLocalstorage()"
+            class="btn btn-default"
+            style="background-color: #209cee; color: white"
+            ng-bind-html="language.loginSaveToLocalMemory"
+          ></a>
+        </p>
+      </div>
+
+      <div ng-if="config.showOnlineSubmit">
+        <p id="onlineSubmitBtn" ng-if="config.submitUrl">
+          <a
+            href=""
+            id="onlineSubmitLink"
+            ng-click="submitViaHttp()"
+            class="btn btn-default"
+            ng-bind-html="language.btnTransfer"
+            ng-disabled="buttonClicked"
+            style="
+              background-color: #209cee;
+              color: white;
+              touch-action: manipulation;
+            "
+          ></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
