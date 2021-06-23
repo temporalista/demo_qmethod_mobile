@@ -1,74 +1,92 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
    <language version="1.0" htmlParse="true">
 ;
 
         <!-- misc -->
-        <item id="btnContinue">Continuar</item>
-        <item id="btnclose">Cerrar</item>
-        <item id="btnHelp">Ayuda</item>
-        <item id="btnAgreement">Acuerdo</item>
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Agree</item>
         <item id="btnNeutral">Neutral</item>
-        <item id="btnDisagreement">Desacuerdo</item>
-        <item id="btnTransfer">Enviar</item>
-        <item id="btnExit">Salir</item>
-        <item id="selectItem">Seleccionar</item>
+        <item id="btnDisagreement">Disagree</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
         
         <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
-        <item id="leaveSiteWarning">Sus datos se perderán</item>
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
 
         <!-- HtmlQ only: In-App Back Button -->
-        <item id="backButton">Regresar</item>
-        <item id="fillInRequiredFields">Por favor complete todos los datos</item>
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
 
         <!-- errors -->
         <item id="errorHead">Error!</item>
         <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Bienvenid@ al Experimento Q</item>
-        <item id="welcomeText">Este es un demo del Método Q. Basado en el estudio presentado en el artículo " Orellana, D., Hermida C., Hermida, M.A. (2020). ¿Cerca o lejos? Discursos y subjetividad en las relaciones entre el lugar de residencia y la movilidad. Revista EURE (En Prensa)".{br}{br}{b}** Importante **{/b}{br}Para este ejercicio necesitará todo el espacio posible en la pantalla!{br}{br}De ser necesario, maximice la ventana de su navegador y cargue nuevamente esta página. Haga click en "Continuar" para comenzar el experimento.</item>
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">This is a demo project on iPad use in the classroom.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
-        <item id="loginHead">Codigo de Acceso</item>
-        <item id="loginText">Por favor ingrese el código del estudio</item>
-        <item id="loginFormHeader">Codigo de Acceso</item>
-        <item id="loginPartIdText">Su nombre o ID</item>
-        <item id="loginNoInput">Ingrese el código de acceso</item>
-        <item id="loginInvalidInput">Código inválido</item>
-        <item id="loginNoConnection">Fallo de conexión :,( Por favor intente otra vez.</item>
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Participant name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
+        <!-- EQ Mobile Controls Language, only displayed if Mobile is selected -->
+        <item id="loginQsortsStored">Q Sorts Stored in Local Memory</item>
+        <item id="loginSaveToLocalMemory">Currently Offline - Save to Local Memory</item>
+        <item id="loginReturnToControl">Return to Control Screen</item>
+        <item id="loginSendQsortsToFirebase">Send Stored Q Sorts to Firebase</item>
+        <item id="loginFirebaseSuccess">Success - All Stored Q Sorts Sent to Firebase</item>
+        <item id="loginRememberAutolock">Remember to Turn Off Auto Screen Lock Before Start</item>
+        <item id="loginDoScreenCapture">Always Do a Screen Capture of Q Sorts as Backup</item>
+        <item id="loginDeleteLocalQsorts">Enter Access Code to Permanently Remove Locally Stored Q Sorts</item>
+        
+
+        <item id="loginCachePasswordLabel">Clear Cache Password</item>
+        <item id="loginClearCacheButton">Clear</item>
+        <item id="loginShowClearCacheButton">Clear Cache</item>
+        <item id="loginClearCacheText">This will delete all of the cached files from the iPad memory and allow
+        an update to the project.</item>
+
+    
         <!-- introduction (leave blank to skip popup) -->
-        <item id="introHead">Introducción</item>
-        <item id="introText">Este experimento es un ejemplo para validar el Método Q. El experimento consiste en 5 pasos y toma aproximadamente 10 minutos.</item>
+        <item id="introHead">Introduction</item>
+        <item id="introText">This study is about iPad use in the classroom.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
-        <item id="step1Head">Paso 1 de 5</item>
-        <item id="step1Text">Organice las frases de forma rápida según su nivel de acuerdo, sin tomar demasiado tiempo para pensar (más adelante podrá cambiar su decisión). Puede arrastrarlas con el ratón a cada montón o utilizar las teclas 1, 2 y 3.</item>
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
 
         <!-- step2: sorting (leave blank to skip popup) -->
-        <item id="step2Head">Paso 2 de 5</item>
-        <item id="step2Text">Tome las tarjetas del montón "Acuerdo" y organícelas en la parte derecha según su nivel de acuerdo (Aquellas con las que está más de acuerdo, van más a la derecha).{br}{br}Luego, organice las tarjetas del montón "Desacuerdo" y organícelas en la parte izquierda (Las de mayor desacuerdo coloquelas más a la izquierda. {br}{br} Finalmente organice las tarjetas del montín "neutral" en los espacios del centro. Si cambia de opinión sobre una frase, puede organizarla donde mejor represente su nivel de acuerdo o desacuerdo</item>
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.</item>
         <item id="step2CondOfInstruc">Give condition of instruction here</item>
         <item id="step2TextSizeLabel">Text</item>
         
 
         <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-        <item id="step3Head">Paso 3 de 5</item>
-        <item id="step3Text">Ahora que ha organizado todas las tarjetas, revise la distribución por última vez y si desea puede aún hacer cambios.</item>
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.</item>
         <item id="step3CondOfInstruc">Give condition of instruction here</item>
 
         <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-        <item id="step4Head">Paso 4 de 5</item>
-        <item id="step4Text">Por favor explique por qué está en mayor acuerdo o desacuerdo con las siguientes tarjetas que quedaron en los extremos.</item>
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".</item>
 
         <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
-        <item id="step5Head">Paso 5 de 5</item>
-        <item id="step5Text">Finalmente, complete la siguiente información acerca de usted.</item>
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-        <item id="transferHead">Enviar datos</item>
-        <item id="transferText">Usted ha terminado el experimento, por favor envíe sus datos</item>
-        <item id="transferFailed">El envío a fallado, por favor intente otra vez</item>
-        <item id="transferOk">Gracias por participar! Puede cerrar esta ventana.</item>   
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for using Easy HTMLQ!{br}{br}You can now close your browser window.</item>   
    </language>
