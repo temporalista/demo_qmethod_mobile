@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
    <language version="1.0" htmlParse="true">
 ;
@@ -7,7 +7,7 @@
         <item id="btnContinue">Continuar</item>
         <item id="btnclose">Cerrar</item>
         <item id="btnHelp">Ayuda</item>
-        <item id="btnAgreement">ACuerdo</item>
+        <item id="btnAgreement">Acuerdo</item>
         <item id="btnNeutral">Neutral</item>
         <item id="btnDisagreement">Desacuerdo</item>
         <item id="btnTransfer">Enviar</item>
@@ -26,8 +26,8 @@
         <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Bienvenid@</item>
-        <item id="welcomeText">Este es un demo del Método Q. utilizando como ejemplo el estudio presentado en el artículo " Orellana, D., Hermida C., Hermida, M.A. (2020). ¿Cerca o lejos? Discursos y subjetividad en las relaciones entre el lugar de residencia y la movilidad. Revista EURE (En Prensa)".{br}{br}{b}** Importante **{/b}{br}Para este ejercicio necesitará todo el espeacio posible en la pantalla!{br}{br}De ser necesario, {b}MAXIMICE{/b} la pantalla, {b}{i}refresque{/i}{/b} esta página y haga click en "continuar" para comenzar el experimento.</item>
+        <item id="welcomeHead">Bienvenid@ al Experimento Q</item>
+        <item id="welcomeText">Este es un demo del Método Q. Basado en el estudio presentado en el artículo " Orellana, D., Hermida C., Hermida, M.A. (2020). ¿Cerca o lejos? Discursos y subjetividad en las relaciones entre el lugar de residencia y la movilidad. Revista EURE (En Prensa)".{br}{br}{b}** Importante **{/b}{br}Para este ejercicio necesitará todo el espacio posible en la pantalla!{br}{br}De ser necesario, maximice la ventana de su navegador y cargue nuevamente esta página. Haga click en "Continuar" para comenzar el experimento.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Codigo de Acceso</item>
@@ -40,31 +40,31 @@
 
         <!-- introduction (leave blank to skip popup) -->
         <item id="introHead">Introducción</item>
-        <item id="introText">Este es un estudio de ejemplo.</item>
+        <item id="introText">Este experimento es un ejemplo para validar el Método Q. El experimento consiste en 5 pasos y toma aproximadamente 10 minutos.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
-        <item id="step1Head">Paso 1 of 5</item>
-        <item id="step1Text">Organice las tarjetas según su nivel de acuerdo. Puede arrastrarlas con el ratón o utilizar las teclas 1, 2 y 3. Más adelante puede cambiar su decisión si lo desea.</item>
+        <item id="step1Head">Paso 1 de 5</item>
+        <item id="step1Text">Organice las frases de forma rápida según su nivel de acuerdo, sin tomar demasiado tiempo para pensar (más adelante podrá cambiar su decisión). Puede arrastrarlas con el ratón a cada montón o utilizar las teclas 1, 2 y 3.</item>
 
         <!-- step2: sorting (leave blank to skip popup) -->
-        <item id="step2Head">Paso 2 of 5</item>
-        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.</item>
+        <item id="step2Head">Paso 2 de 5</item>
+        <item id="step2Text">Tome las tarjetas del montón "Acuerdo" y organícelas en la parte derecha según su nivel de acuerdo (Aquellas con las que está más de acuerdo, van más a la derecha).{br}{br}Luego, organice las tarjetas del montón "Desacuerdo" y organícelas en la parte izquierda (Las de mayor desacuerdo coloquelas más a la izquierda. {br}{br} Finalmente organice las tarjetas del montín "neutral" en los espacios del centro. Si cambia de opinión sobre una frase, puede organizarla donde mejor represente su nivel de acuerdo o desacuerdo</item>
         <item id="step2CondOfInstruc">Give condition of instruction here</item>
         <item id="step2TextSizeLabel">Text</item>
         
 
         <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-        <item id="step3Head">Step 3 of 5</item>
-        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.</item>
+        <item id="step3Head">Paso 3 de 5</item>
+        <item id="step3Text">Ahora que ha organizado todas las tarjetas, revise la distribución por última vez y si desea puede aún hacer cambios.</item>
         <item id="step3CondOfInstruc">Give condition of instruction here</item>
 
         <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-        <item id="step4Head">Step 4 of 5</item>
-        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".</item>
+        <item id="step4Head">Paso 4 de 5</item>
+        <item id="step4Text">Por favor explique por qué está en mayor acuerdo o desacuerdo con las siguientes tarjetas que quedaron en los extremos.</item>
 
         <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
-        <item id="step5Head">Step 5 of 5</item>
-        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+        <item id="step5Head">Paso 5 de 5</item>
+        <item id="step5Text">Finalmente, complete la siguiente información acerca de usted.</item>
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
         <item id="transferHead">Enviar datos</item>
