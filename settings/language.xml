@@ -27,7 +27,7 @@
 
         <!-- welcome screen (leave blank to skip screen) -->
         <item id="welcomeHead">Welcome!</item>
-        <item id="welcomeText">This is a demo project on iPad use in the classroom.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeText">This is a demo project on Q-Methodology.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
@@ -58,7 +58,7 @@
     
         <!-- introduction (leave blank to skip popup) -->
         <item id="introHead">Introduction</item>
-        <item id="introText">This study is about iPad use in the classroom.</item>
+        <item id="introText">This is a Demo on Q-Methodology.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
