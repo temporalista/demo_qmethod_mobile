@@ -3,7 +3,7 @@
    <config version="1.0" htmlParse="false">
 
      <!-- title of the study -->
-     <item id="studyTitle">My_Q_project</item>
+     <item id="studyTitle">DemoQ</item>
 
      <!-- text-align property(left|right) -->
      <item id="textAlign">left</item>
@@ -31,10 +31,10 @@
      <item id="constantCardWidth">200</item>
      <!-- activate/deactivate optional steps (true|false) -->
      <item id="showStep3">true</item>
-     <item id="showStep4">true</item>
-     <item id="showStep5">true</item>
+     <item id="showStep4">false</item>
+     <item id="showStep5">false</item>
      <!-- HtmlQ only: disable the in-window back button -->
-     <item id="disableBackButton">true</item>
+     <item id="disableBackButton">false</item>
 
      <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
      <!-- add label: <label>[STRING]</label> -->
